@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
 	<link href="assets/css/styles.css" rel="stylesheet">
 	<link href="assets/css/icons.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.js" integrity="sha256-1qeNeAAFNi/g6PFChfXQfa6CQ8eXoHXreohinZsoJOQ=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -94,12 +95,14 @@
 			<div class="preview-large">
 				<h3>Single product view</h3>
 				<div class="apartment-details">
-					<img src=""/>
+					<img class="border-container" src=""/>
 					<div class="apartment-info">
 						<div class="apartment-icons">
 						</div>
 					</div>
-
+				</div>
+				<div class="apartment-metrics">
+					<canvas id="myChart" width="400" height="400"></canvas>
 				</div>
 				<span class="close">×</span>
 			</div>
