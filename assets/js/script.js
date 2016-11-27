@@ -368,15 +368,16 @@ $(function () {
 				responsive: true,
 				maintainAspectRatio: false,
 	        scales: {
-	            // yAxes: [{
-	            //     display:false
-	            // }],
-							// xAxes: [{
-	            //     display:false
-	            // }]
-							gridLines	:{
-								color:"red"
-							}
+	            yAxes: [{
+								gridLines	:{
+									color:"red"
+								}
+	            }],
+							xAxes: [{
+								gridLines	:{
+									color:"red"
+								}
+	            }]
 	        }
 	    }
 	});
