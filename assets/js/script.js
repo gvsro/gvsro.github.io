@@ -374,6 +374,9 @@ $(function () {
 							// xAxes: [{
 	            //     display:false
 	            // }]
+							gridLines	:{
+								color:"red"
+							}
 	        }
 	    }
 	});
