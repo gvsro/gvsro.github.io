@@ -97,7 +97,7 @@ $(function () {
 	// These are called on page load
 
 	// Get data about our products from products.json.
-	$.getJSON( "http://583a3c22237de71200e1d193.mockapi.io/apartments", function( data ) {
+	$.getJSON( "https://583a3c22237de71200e1d193.mockapi.io/apartments", function( data ) {
 
 		// Write the data into our global variable.
 		products = data;
