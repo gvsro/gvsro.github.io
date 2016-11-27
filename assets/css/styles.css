@@ -470,11 +470,13 @@ header h2.tzine a{
 .botfix{
 	position: fixed;
 	bottom: 0;
+	margin-bottom: 20px;
 }
 .botfix::after{
 	position: fixed;
 	bottom: 0;
 	height: 20px;
+	background-color: #2980b9;
 }
 .overflow{
 	overflow: hidden;
@@ -489,7 +491,6 @@ header h2.tzine a{
 	position: absolute;
 	content: '';
 	pointer-events: none;
-	height: 20px;
 }
 
 /* Triangles */
