@@ -163,8 +163,8 @@ header h2.tzine a{
 
 .products-list{
 	list-style:none;
-	margin-left:225px;
-	max-width: 1500px;
+	/*margin-left:225px;
+	max-width: 1500px;*/
 	text-align: center;
 	padding: 0;
 	opacity: 0;
