@@ -370,12 +370,12 @@ $(function () {
 	        scales: {
 	            yAxes: [{
 								gridLines	:{
-									color:"red"
+									color:"#727272"
 								}
 	            }],
 							xAxes: [{
 								gridLines	:{
-									color:"red"
+									color:"#727272"
 								}
 	            }]
 	        }
