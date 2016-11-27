@@ -239,7 +239,7 @@ $(function () {
 	// Opens up a preview for one of the products.
 	// Its parameters are an index from the hash and the products object.
 	function renderSingleProductPage(index, data){
-
+    console.log(data);
 		var page = $('.single-product'),
 			container = $('.preview-large');
 

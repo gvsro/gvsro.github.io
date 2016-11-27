@@ -250,7 +250,7 @@ header h2.tzine a{
 }
 
 .products-list .product-description li{
-	display: inline-block;
+	display: block;
 	margin-right: 5px;
 }
 

@@ -1,92 +1,96 @@
-{
-    "id": "1",
-    "createdAt": 1480215724,
-    "name": "apartament centru",
-    "imageUrls": {
-        "small": "https://olxro-ring12.akamaized.net/images_mercadorro/53702269_1_644x461_apartament-2-camere-centru-13000-onesti.jpg",
-        "large": "https://olxro-ring12.akamaized.net/images_mercadorro/53702269_1_644x461_apartament-2-camere-centru-13000-onesti.jpg"
+[
+    {
+        "id": "1",
+        "createdAt": 1480215724,
+        "name": "Apartament centru",
+        "imageUrls": {
+            "small": "https://olxro-ring12.akamaized.net/images_mercadorro/53702269_1_644x461_apartament-2-camere-centru-13000-onesti.jpg",
+            "large": "https://olxro-ring12.akamaized.net/images_mercadorro/53702269_1_644x461_apartament-2-camere-centru-13000-onesti.jpg"
+        },
+        "dotari": {
+            "ct": 1,
+            "wifi": 1,
+            "tv": 2
+        },
+        "utilitati": {
+            "intretinere": {
+                "operator": "asoc-1",
+                "codclient": "22345",
+                "estimare": 50
+            },
+            "gaz": {
+                "operator": "eon-gaz-iasi",
+                "codclient": "22345",
+                "estimare": 100
+            },
+            "curent": {
+                "operator": "eon-ee-iasi",
+                "codclient": "22345",
+                "estimare": 100
+            },
+            "tv": {
+                "operator": "rds-iasi",
+                "codclient": "22345",
+                "estimare": 13
+            },
+            "internet": {
+                "operator": "rds-iasi",
+                "codclient": "22345",
+                "estimare": 50
+            }
+        },
+        "despre": "Apartamentul este situat pe stefan cel mare",
+        "metrics": 1,
+        "owner": "1",
+        "active": true,
+        "pret": 1800,
+        "oras":"iasi"
     },
-    "dotari": {
-        "ct": 1,
-        "wifi": 1,
-        "tv": 2
-    },
-    "utilitati": {
-        "intretinere": {
-            "operator": "asoc-1",
-            "codclient": "22345",
-            "estimare": 50
+    {
+        "id": "2",
+        "createdAt": 1480215726,
+        "name": "Apartament periferie",
+        "imageUrls": {
+            "small": "https://olxro-ring12.akamaized.net/images_mercadorro/53702269_1_644x461_apartament-2-camere-centru-13000-onesti.jpg",
+            "large": "https://olxro-ring12.akamaized.net/images_mercadorro/53702269_1_644x461_apartament-2-camere-centru-13000-onesti.jpg"
         },
-        "gaz": {
-            "operator": "eon-gaz-iasi",
-            "codclient": "22345",
-            "estimare": 100
+        "dotari": {
+            "ct": 1,
+            "wifi": 1,
+            "tv": 2
         },
-        "curent": {
-            "operator": "eon-ee-iasi",
-            "codclient": "22345",
-            "estimare": 100
+        "utilitati": {
+            "intretinere": {
+                "operator": "asoc-1",
+                "codclient": "22345",
+                "estimare": 50
+            },
+            "gaz": {
+                "operator": "eon-gaz-iasi",
+                "codclient": "22345",
+                "estimare": 100
+            },
+            "curent": {
+                "operator": "eon-ee-iasi",
+                "codclient": "22345",
+                "estimare": 100
+            },
+            "tv": {
+                "operator": "rds-iasi",
+                "codclient": "22345",
+                "estimare": 13
+            },
+            "internet": {
+                "operator": "rds-iasi",
+                "codclient": "22345",
+                "estimare": 50
+            }
         },
-        "tv": {
-            "operator": "rds-iasi",
-            "codclient": "22345",
-            "estimare": 13
-        },
-        "internet": {
-            "operator": "rds-iasi",
-            "codclient": "22345",
-            "estimare": 50
-        }
-    },
-    "despre": "apartamentul este situat pe stefan cel mare",
-    "metrics": 1,
-    "owner": "1",
-    "active": true,
-    "pret":1800
-},
-{
-    "id": "2",
-    "createdAt": 1480215726,
-    "name": "apartament periferie",
-    "imageUrls": {
-        "small": "https://olxro-ring12.akamaized.net/images_mercadorro/53702269_1_644x461_apartament-2-camere-centru-13000-onesti.jpg",
-        "large": "https://olxro-ring12.akamaized.net/images_mercadorro/53702269_1_644x461_apartament-2-camere-centru-13000-onesti.jpg"
-    },
-    "dotari": {
-        "ct": 1,
-        "wifi": 1,
-        "tv": 2
-    },
-    "utilitati": {
-        "intretinere": {
-            "operator": "asoc-1",
-            "codclient": "22345",
-            "estimare": 50
-        },
-        "gaz": {
-            "operator": "eon-gaz-iasi",
-            "codclient": "22345",
-            "estimare": 100
-        },
-        "curent": {
-            "operator": "eon-ee-iasi",
-            "codclient": "22345",
-            "estimare": 100
-        },
-        "tv": {
-            "operator": "rds-iasi",
-            "codclient": "22345",
-            "estimare": 13
-        },
-        "internet": {
-            "operator": "rds-iasi",
-            "codclient": "22345",
-            "estimare": 50
-        }
-    },
-    "despre": "apartamentul este situat pe centura",
-    "metrics": 1,
-    "owner": "1",
-    "active": true,
-    "pret":1300
-}
+        "despre": "Apartamentul este situat pe centura",
+        "metrics": 1,
+        "owner": "1",
+        "active": true,
+        "pret": 1300,
+        "oras":"iasi"
+    }
+]
