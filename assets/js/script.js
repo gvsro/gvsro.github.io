@@ -368,12 +368,12 @@ $(function () {
 				responsive: true,
 				maintainAspectRatio: false,
 	        scales: {
-	            yAxes: [{
-	                display:false
-	            }],
-							xAxes: [{
-	                display:false
-	            }]
+	            // yAxes: [{
+	            //     display:false
+	            // }],
+							// xAxes: [{
+	            //     display:false
+	            // }]
 	        }
 	    }
 	});
