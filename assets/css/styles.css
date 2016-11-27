@@ -470,13 +470,18 @@ header h2.tzine a{
 .botfix{
 	position: fixed;
 	bottom: 0;
-	margin-bottom: 20px;
+}
+.botfix::after{
+	position: fixed;
+	bottom: 0;
+	height: 20px;
 }
 .overflow{
 	overflow: hidden;
 }
 .apartment-metrics{
 	z-index: -1;
+	background-color: #2980b9;
 }
 
 .apartment-metrics::before,
@@ -484,6 +489,7 @@ header h2.tzine a{
 	position: absolute;
 	content: '';
 	pointer-events: none;
+	height: 20px;
 }
 
 /* Triangles */
