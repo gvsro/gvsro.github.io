@@ -387,6 +387,7 @@ $(function () {
 	        }]
 	    },
 	    options: {
+					responsive: false,
 	        scales: {
 	            yAxes: [{
 	                ticks: {
