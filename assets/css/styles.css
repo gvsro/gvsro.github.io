@@ -449,3 +449,6 @@ header h2.tzine a{
 .capitalize {
     text-transform: capitalize;
 }
+.apartment-metrics{
+	align-self: flex-end;
+}
