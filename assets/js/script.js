@@ -249,7 +249,7 @@ $(function () {
 				if(item.id == index){
 					// Populate '.preview-large' with the chosen product's data.
 					container.find('h3').text(item.name);
-					container.find('img').attr('src', item.image.large);
+					container.find('img').attr('src', item.imageUrls.large);
 					container.find('p').text(item.description);
 				}
 			});
