@@ -449,7 +449,7 @@ header h2.tzine a{
 .capitalize {
     text-transform: capitalize;
 }
-.apartment-metrics{
+.botfix{
 	position: fixed;
 	bottom: 0;
 	margin-bottom: 20px;

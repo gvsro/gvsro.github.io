@@ -255,7 +255,7 @@ $(function () {
 					$.each( item.dotari, function( key, value ) {
 						container.find('.apartment-icons').append('<div class="iconWrapper"><div class="icon '+key+'"></div></div>');
 					});
-
+			$("#myChart").addClass('botfix');
 				}
 			});
 		}
