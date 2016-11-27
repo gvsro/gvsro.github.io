@@ -251,9 +251,9 @@ $(function () {
 					// Populate '.preview-large' with the chosen product's data.
 					container.find('h3').text(item.name);
 					container.find('img').attr('src', item.imageUrls.large);
-					container.find('.apartment-info').prepend('<span>Oras<p class="capitalize">'+item.oras+'</p></span>');
-					container.find('.apartment-info').prepend('<span>Pret<p>'+item.pret+'RON</p></span>');
-					container.find('.apartment-info').prepend('<span>Detalii<p>'+item.despre+'</p></span>');
+					container.find('.apartment-info').prepend('<span><span>Oras</span><p class="capitalize">'+item.oras+'</p></span>');
+					container.find('.apartment-info').prepend('<span><span>Pret</span><p>'+item.pret+'RON</p></span>');
+					container.find('.apartment-info').prepend('<span><span>Detalii</span><p>'+item.despre+'</p></span>');
 					$.each( item.dotari, function( key, value ) {
 						container.find('.apartment-icons').append('<div class="iconWrapper"><div class="icon '+key+'"></div></div>');
 					});
