@@ -365,9 +365,7 @@ header h2.tzine a{
 	display: flex;
 	flex-direction: column;
 }
-.apartment-details img{
-	flex: 0;
-}
+
 .apartment-info span{
 		margin-left: 3%;
     display: inline-flex;
@@ -390,6 +388,7 @@ header h2.tzine a{
 }
 
 .preview-large img{
+	flex: 0;
 	width: 100%;
 	height: 280px;
 	border-bottom: 3px solid #efefef;
