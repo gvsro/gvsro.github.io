@@ -8,9 +8,30 @@
             "large": "https://olxro-ring12.akamaized.net/images_mercadorro/53702269_1_644x461_apartament-2-camere-centru-13000-onesti.jpg"
         },
         "dotari": {
+            "camere":5,
+            "bai":3,
             "ct": 1,
-            "wifi": 1,
-            "tv": 2
+            "internet":true,
+            "wifi": 2,
+            "tv": 2,
+            "jacuzzi":1,
+            "cada":1,
+            "dus":1,
+            "alarma":1,
+            "dvr":1,
+            "interfon":1,
+            "smart-house":true,
+            "termopan":true,
+            "izolatie":true,
+            "termostat":true,
+            "aragaz":1,
+            "frigider":3,
+            "vesela":true,
+            "balcon":true,
+            "pats":1,
+            "patd":2,
+            "lift":true,
+            "etaj":10
         },
         "utilitati": {
             "intretinere": {

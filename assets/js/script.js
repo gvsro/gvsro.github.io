@@ -249,7 +249,13 @@ $(function () {
 					// Populate '.preview-large' with the chosen product's data.
 					container.find('h3').text(item.name);
 					container.find('img').attr('src', item.imageUrls.large);
+					container.find('.apartment-info').append('<span>Oras<p>'+item.oras+'</p></span>');
+					container.find('.apartment-info').append('<span>Pret<p>'+item.pret+'RON</p></span>');
 					container.find('.apartment-info').append('<span>Detalii<p>'+item.despre+'</p></span>');
+					$.each( item.dotari, function( key, value ) {
+						container.find('.apartment-info').append('<span>'+key+'<p>'+value+'</p></span>');
+					});
+
 				}
 			});
 		}
