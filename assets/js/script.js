@@ -368,11 +368,9 @@ $(function () {
 	        scales: {
 	            yAxes: [{
 	                display:false
-	                }
 	            }],
 							xAxes: [{
 	                display:false
-	                }
 	            }]
 	        }
 	    }
