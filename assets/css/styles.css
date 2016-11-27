@@ -507,3 +507,6 @@ opacity: 0;
 	opacity: 1;
 	transition: 1.4s;
 }
+.fullpage-wrapper{
+	    transform: translate3d(0px, 0px, 0px)!important;
+}

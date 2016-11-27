@@ -257,7 +257,7 @@ $(function () {
 					$.each( item.dotari, function( key, value ) {
 						container.find('.apartment-icons').append('<div class="iconWrapper"><div class="icon '+key+'"></div></div>');
 					});
-			$(".apartment-metrics").addClass('botfix').delay( 800 );
+			$(".apartment-metrics").addClass('botfix visible').delay( 800 );
 				}
 			});
 		}
