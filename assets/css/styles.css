@@ -437,6 +437,6 @@ header h2.tzine a{
 
 
 
-span.capitalize {
+.capitalize {
     text-transform: capitalize;
 }
