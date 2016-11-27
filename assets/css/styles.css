@@ -507,9 +507,3 @@ header h2.tzine a{
 	top: -50px;
 	background: #2980b9;
 }
-
-.ss-style-triangles::after {
-	bottom: -50px;
-	z-index: 10;
-	background: inherit;
-}
