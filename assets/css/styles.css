@@ -374,6 +374,7 @@ header h2.tzine a{
     padding-left: 5px;
 }
 .apartment-info span p{
+		padding: 0;
 		margin-top: -3px;
 		margin-left: 20px;
 }
