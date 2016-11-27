@@ -477,6 +477,7 @@ header h2.tzine a{
 	overflow: hidden;
 }
 .apartment-metrics{
+opacity: 0;
 	z-index: -1;
 	background-color: #212121;
 }
@@ -501,4 +502,8 @@ header h2.tzine a{
 .ss-style-triangles::before {
 	top: -70px;
 	background: #212121;
+}
+.apartment-metrics.visible{
+	opacity: 1;
+	transition: 1.4s;
 }
