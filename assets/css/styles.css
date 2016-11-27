@@ -255,7 +255,13 @@ header h2.tzine a{
 }
 
 .products-list .product-description li:first-child{
-	display: block;
+		overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;     /* fallback */
+   max-height: 32px;      /* fallback */
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
 }
 
 .products-list .product-description li span{
@@ -372,7 +378,7 @@ header h2.tzine a{
 .apartment-info span{
 		margin-left: 3%;
     display: inline-flex;
-    border-left: 3px #3678F1 solid;
+    border-left: 2px #19D599 solid;
     border-left-style: solid;
     padding-left: 5px;
 }
