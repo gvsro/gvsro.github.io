@@ -342,25 +342,27 @@ header h2.tzine a{
 }
 
 .preview-large{
-	box-sizing: border-box;
-	width: 760px;
-	height: 550px;
-	position: fixed;
-	left: 50%;
-	margin-left: -375px;
-	top: 50%;
-	margin-top: -275px;
-	pointer-events: none;
-
-	border-radius: 6px;
-	background-color:  #ffffff;
-
-	z-index: 102;
-	opacity: 0;
-	transition: 0.4s;
-
+		  box-sizing: border-box;
+	    width: 100%;
+	    height: 100%;
+	    position: fixed;
+	    left: 0px;
+	    top: 0%;
+	    pointer-events: none;
+	    background-color: #ffffff;
+	    z-index: 102;
+	    opacity: 0;
+	    transition: 0.4s;
+			flex-direction: column;
 }
-
+.apartment-details{
+	text-align: left;
+	display: inline-flex;
+}
+.apartment-info{
+	display: flex;
+	flex-direction: column;
+}
 .single-product.visible .preview-large{
 	opacity: 1;
 	transition: 1.4s;
