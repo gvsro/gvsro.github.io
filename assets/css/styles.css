@@ -454,3 +454,6 @@ header h2.tzine a{
 	bottom: 0;
 	margin-bottom: 20px;
 }
+.overflow{
+	overflow: hidden;
+}

@@ -128,6 +128,7 @@ $(function () {
 		$('.main-content .page').removeClass('visible');
 
 
+
 		var	map = {
 
 			// The "Homepage".
@@ -232,6 +233,7 @@ $(function () {
 		// Show the page itself.
 		// (the render function hides all pages so we need to show the one we want).
 		page.addClass('visible');
+		$('body').removeClass('overflow');
 
 	}
 
@@ -262,7 +264,7 @@ $(function () {
 
 		// Show the page.
 		page.addClass('visible');
-
+		$('body').addClass('overflow');
 	}
 
 	// Find and render the filtered data results. Arguments are:
