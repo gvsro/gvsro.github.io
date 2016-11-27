@@ -432,7 +432,7 @@ header h2.tzine a{
 	position: absolute;
 	right: 25px;
 	top: 15px;
-
+	z-index: 5;
 	font-size: 28px;
 	color: #555;
 	cursor: pointer;
