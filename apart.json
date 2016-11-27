@@ -1,0 +1,44 @@
+{
+    "id": "1",
+    "createdAt": 1480215724,
+    "name": "apartament centru",
+    "imageUrls": {
+        "small": "https://olxro-ring12.akamaized.net/images_mercadorro/53702269_1_644x461_apartament-2-camere-centru-13000-onesti.jpg",
+        "large": "https://olxro-ring12.akamaized.net/images_mercadorro/53702269_1_644x461_apartament-2-camere-centru-13000-onesti.jpg"
+    },
+    "dotari": {
+        "ct": 1,
+        "wifi": 1,
+        "tv": 2
+    },
+    "utilitati": {
+        "intretinere": {
+            "operator": "asoc-1",
+            "codclient": "22345"
+        },
+        "gaz": {
+            "operator": "eon-gaz-iasi",
+            "codclient": "22345",
+            "estimare": 100
+        },
+        "curent": {
+            "operator": "eon-ee-iasi",
+            "codclient": "22345",
+            "estimare": 100
+        },
+        "tv": {
+            "operator": "rds-iasi",
+            "codclient": "22345",
+            "estimare": 13
+        },
+        "internet": {
+            "operator": "rds-iasi",
+            "codclient": "22345",
+            "estimare": 50
+        }
+    },
+    "despre": "apartamentul este situat pe stefan cel mare",
+    "metrics": 1,
+    "owner": "1",
+    "active": true
+}

@@ -7,7 +7,7 @@
 
 	<title>Single Page App Without A Framework</title>
 
-	<link href="//fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
 	<link href="assets/css/styles.css" rel="stylesheet">
 </head>
 
@@ -66,7 +66,7 @@
 				<script id="products-template" type="x-handlebars-template">​
 					{{#each this}}
 						<li data-index="{{id}}">
-							<a href="#" class="product-photo"><img src="{{image.small}}" height="130" alt="{{name}}"/></a>
+							<a href="#" class="product-photo"><img src="{{imageURLs.small}}" height="130" alt="{{name}}"/></a>
 							<h2><a href="#"> {{name}} </a></h2>
 							<ul class="product-description">
 								<li><span>Manufacturer: </span>{{specs.manufacturer}}</li>
