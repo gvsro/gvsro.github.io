@@ -486,27 +486,23 @@ header h2.tzine a{
 	pointer-events: none;
 }
 
-.ss-style-doublediagonal {
-	z-index: 1;
-	padding-top: 6em;
-	background: #2072a7;
+/* Triangles */
+.ss-style-triangles::before,
+.ss-style-triangles::after {
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	-webkit-transform: translateX(-50%) rotate(45deg);
+	transform: translateX(-50%) rotate(45deg);
 }
 
-.ss-style-doublediagonal::before,
-.ss-style-doublediagonal::after {
-	top: 0;
-	left: -25%;
-	z-index: -1;
-	width: 150%;
-	height: 55%;
+.ss-style-triangles::before {
+	top: -50px;
+	background: #2980b9;
+}
+
+.ss-style-triangles::after {
+	bottom: -50px;
+	z-index: 10;
 	background: inherit;
-	transform: rotate(-2deg);
-	transform-origin: 0 0;
-}
-
-.ss-style-doublediagonal::before {
-	height: 25%;
-	background: #116094;
-	transform: rotate(-3deg);
-	transform-origin: 3% 0;
 }
