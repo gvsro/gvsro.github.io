@@ -356,14 +356,28 @@ header h2.tzine a{
 			flex-direction: column;
 }
 .apartment-details{
-	text-align: left;
-	display: inline-flex;
-	float: left;
+	display: flex;
 	margin-left: 1%;
 }
 .apartment-info{
+	flex-grow: 3;
+	flex: 1;
 	display: flex;
 	flex-direction: column;
+}
+.apartment-info img{
+	flex: 0;
+}
+.apartment-info span{
+		margin-left: 3%;
+    display: inline-flex;
+    border-left: 3px #3678F1 solid;
+    border-left-style: solid;
+    padding-left: 5px;
+}
+.apartment-info span p{
+		margin-top: -3px;
+		margin-left: 20px;
 }
 .single-product.visible .preview-large{
 	opacity: 1;
