@@ -3804,19 +3804,19 @@
   .syringe.filled {
     background-color: #333333; }
 
-.minusFront.icon {
+.izolatie.icon {
   margin-left: 2px;
   margin-top: 2px;
   width: 10px;
   height: 10px;
   border: solid 1px #333333; }
-  .minusFront.icon:before {
+  .izolatie.icon:before {
     width: 10px;
     height: 10px;
     border: dotted 1px #333333;
     left: 4px;
     top: 4px; }
-  .minusFront.icon:after {
+  .izolatie.icon:after {
     width: 6px;
     height: 6px;
     border-top: solid 1px #333333;
@@ -3824,7 +3824,7 @@
     background-color: white;
     right: -1px;
     bottom: -1px; }
-  .minusFront.icon.filled {
+  .izolatie.icon.filled {
     background-color: #333333; }
 
 .unite.icon {
@@ -4730,20 +4730,20 @@
     border-bottom: solid 3px transparent;
     border-left: solid 3px #333333; }
 
-.moveVerticalCenter {
+.etaj {
   margin-left: 2px;
   margin-top: 9px;
   width: 16px;
   height: 2px;
   background-color: #333333; }
-  .moveVerticalCenter:before {
+  .etaj:before {
     width: 2px;
     height: 12px;
     top: -8px;
     left: 7px;
     border-top: solid 3px #333333;
     border-bottom: solid 3px #333333; }
-  .moveVerticalCenter:after {
+  .etaj:after {
     width: 0;
     height: 6px;
     left: 5px;
