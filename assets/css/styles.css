@@ -475,8 +475,7 @@ header h2.tzine a{
 .botfix::after{
 	position: fixed;
 	bottom: 0;
-	height: 20px;
-	background-color: #2980b9;
+	border-bottom: 20px #212121 solid;
 }
 .overflow{
 	overflow: hidden;
