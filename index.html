@@ -8,6 +8,8 @@
 	<title>Single Page App Without A Framework</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.9/jquery.fullPage.css" integrity="sha256-T94QByTMAdIHqXJ+CJ/KMbiYYtMcNIqC3QL7JlfnqTI=" crossorigin="anonymous" />
+
 	<link href="assets/css/styles.css" rel="stylesheet">
 	<link href="assets/css/icons.css" rel="stylesheet">
 </head>
@@ -92,19 +94,33 @@
 			<div class="overlay"></div>
 
 			<div class="preview-large">
-				<h3>Single product view</h3>
-				<div class="apartment-details">
-						<img src=""/>
-					<div class="apartment-info">
-						<div class="apartment-icons">
+					<div id="fullpage">
+						<div class="section">
+							<h3>Single product view</h3>
+							<div class="apartment-details">
+									<img src=""/>
+								<div class="apartment-info">
+									<div class="apartment-icons">
+									</div>
+								</div>
+							</div>
+							<div class="apartment-metrics ss-style-triangles">
+								<canvas id="myChart" width="400" height="400"></canvas>
+							</div>
+							<span class="close">×</span>
+						</div>
+						<div class="section">Some section</div>
+    				<div class="section">Some section</div>
+    				<div class="section">Some section</div>
+						<div class="section">
+						    <div class="slide"> Slide 1 </div>
+						    <div class="slide"> Slide 2 </div>
+						    <div class="slide"> Slide 3 </div>
+						    <div class="slide"> Slide 4 </div>
 						</div>
 					</div>
-				</div>
-				<div class="apartment-metrics ss-style-triangles">
-					<canvas id="myChart" width="400" height="400"></canvas>
-				</div>
-				<span class="close">×</span>
 			</div>
+
 
 		</div>
 
@@ -117,6 +133,7 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.9/jquery.fullPage.js" integrity="sha256-sNbsQblf7WvQ0z6Ks/Cu9RbqwY0061P8grDiXawUwwg=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.js" integrity="sha256-1qeNeAAFNi/g6PFChfXQfa6CQ8eXoHXreohinZsoJOQ=" crossorigin="anonymous"></script>
 	<script src="assets/js/script.js"></script>
 
