@@ -66,16 +66,18 @@
 				<script id="products-template" type="x-handlebars-template">​
 					{{#each this}}
 						<li data-index="{{id}}">
-							<a href="#" class="product-photo"><img src="{{imageURLs.small}}" height="130" alt="{{name}}"/></a>
+							<a href="#" class="product-photo"><img src="{{imageUrls.small}}" height="130" alt="{{name}}"/></a>
 							<h2><a href="#"> {{name}} </a></h2>
 							<ul class="product-description">
-								<li><span>Manufacturer: </span>{{specs.manufacturer}}</li>
+								<li><span>Despre: </span>{{despre}}</li>
+								{{#each utilitati}}
 								<li><span>Storage: </span>{{specs.storage}} GB</li>
 								<li><span>OS: </span>{{specs.os}}</li>
 								<li><span>Camera: </span>{{specs.camera}} Mpx</li>
+								{{/each}}
 							</ul>
 							<button>Buy Now!</button>
-							<p class="product-price">{{price}}$</p>
+							<p class="product-price">{{pret}}RON</p>
 							<div class="highlight"></div>
 						</li>
 					{{/each}}
