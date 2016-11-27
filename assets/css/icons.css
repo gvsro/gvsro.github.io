@@ -16,7 +16,7 @@
    }
   .iconWrapper .icon {
     z-index: 1; }
-  .iconWrapper:hover {
+  .iconWrapper {
     cursor: pointer;
     border-color: #19d599;
     transition: none; }
