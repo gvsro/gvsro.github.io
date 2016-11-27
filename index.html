@@ -71,9 +71,7 @@
 							<ul class="product-description">
 								<li><span>Despre: </span>{{despre}}</li>
 								{{#each utilitati as |value key|}}
-								<li><span>{{value}}: </span>{{value.estimare}}</li>
-								<li><span>{{value}}: </span>{{value.estimare}}</li>
-								<li><span>{{value}}: </span>{{value.estimare}}</li>
+								<li><span>{{value}} {{key}}: </span>{{value.estimare}}</li>
 								{{/each}}
 							</ul>
 							<button>Buy Now!</button>
