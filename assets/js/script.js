@@ -255,11 +255,11 @@ $(function () {
 					container.find('.apartment-info').prepend('<span><span>Pret</span><p>'+item.pret+'RON</p></span>');
 					container.find('.apartment-info').prepend('<span><span>Detalii</span><p>'+item.despre+'</p></span>');
 					///
-					container.find('.sub-img').prepend('<img class="sub-img" src='+item.imageUrls.large+'/>');
-					container.find('.sub-img').prepend('<img class="sub-img" src='+item.imageUrls.large+'/>');
-					container.find('.sub-img').prepend('<img class="sub-img" src='+item.imageUrls.large+'/>');
-					container.find('.sub-img').prepend('<img class="sub-img" src='+item.imageUrls.large+'/>');
-					container.find('.sub-img').prepend('<img class="sub-img" src='+item.imageUrls.large+'/>');
+					container.find('.sub-imgd').prepend('<img class="sub-img" src='+item.imageUrls.large+'/>');
+					container.find('.sub-imgd').prepend('<img class="sub-img" src='+item.imageUrls.large+'/>');
+					container.find('.sub-imgd').prepend('<img class="sub-img" src='+item.imageUrls.large+'/>');
+					container.find('.sub-imgd').prepend('<img class="sub-img" src='+item.imageUrls.large+'/>');
+					container.find('.sub-imgd').prepend('<img class="sub-img" src='+item.imageUrls.large+'/>');
 					////
 					$.each( item.dotari, function( key, value ) {
 						container.find('.apartment-icons').append('<div class="iconWrapper"><div class="icon '+key+'"></div></div>');
