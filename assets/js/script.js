@@ -360,7 +360,7 @@ $(function () {
 
 	}
 	var ctx = document.getElementById("myChart");
-	var myChart = new Chart(ctx, {
+	var myChart = new Chart.Line(ctx, {
 	    type: 'bar',
 	    data: {
 	        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
