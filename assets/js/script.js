@@ -432,5 +432,8 @@ var data = {
     ]
 };
 $(document).ready(function() {
-    $('#fullpage').fullpage();
+    $('#fullpage').fullpage({
+			loopHorizontal: false,
+			continuousHorizontal: false
+		});
 });
