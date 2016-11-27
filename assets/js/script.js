@@ -239,7 +239,6 @@ $(function () {
 	// Opens up a preview for one of the products.
 	// Its parameters are an index from the hash and the products object.
 	function renderSingleProductPage(index, data){
-    console.log(data);
 		var page = $('.single-product'),
 			container = $('.preview-large');
 
@@ -249,7 +248,8 @@ $(function () {
 				if(item.id == index){
 					// Populate '.preview-large' with the chosen product's data.
 					container.find('h3').text(item.name);
-					container.find('img').attr('src', item.imageUrls.large);
+					console.log(item);
+					// container.find('img').attr('src', item.imageUrls.large);
 					container.find('p').text(item.description);
 				}
 			});
