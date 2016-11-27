@@ -434,6 +434,9 @@ var data = {
 $(document).ready(function() {
     $('#fullpage').fullpage({
 			loopHorizontal: false,
-			continuousHorizontal: false
+			continuousHorizontal: false,
+			controlArrows: false,
+			verticalCentered: false,
+			fixedElements: '.apartment-metrics'
 		});
 });
