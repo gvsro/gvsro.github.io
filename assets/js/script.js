@@ -435,5 +435,8 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
 			loopHorizontal: false,
 			continuousHorizontal: false,
-			controlArrows: false		});
+			controlArrows: false,
+			verticalCentered: false,
+			fixedElements: '.apartment-metrics'
+		});
 });
