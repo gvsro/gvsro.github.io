@@ -476,8 +476,8 @@ header h2.tzine a{
 	overflow: hidden;
 }
 
-.apartment-metrics::before,
-.apartment-metrics::after {
+.apartment-details::before,
+.apartment-details::after {
 	position: absolute;
 	content: '';
 	pointer-events: none;
