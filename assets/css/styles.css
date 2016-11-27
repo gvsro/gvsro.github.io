@@ -486,16 +486,14 @@ header h2.tzine a{
 	background-color: #2980b9;
 }
 
-.apartment-metrics::before,
-.apartment-metrics::after {
+.apartment-metrics::before{
 	position: absolute;
 	content: '';
 	pointer-events: none;
 }
 
 /* Triangles */
-.ss-style-triangles::before,
-.ss-style-triangles::after {
+.ss-style-triangles::before{
 	left: 50%;
 	width: 100px;
 	height: 100px;
