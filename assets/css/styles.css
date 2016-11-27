@@ -475,9 +475,12 @@ header h2.tzine a{
 .overflow{
 	overflow: hidden;
 }
+.apartment-metrics{
+	z-index: -1;
+}
 
-.apartment-details::before,
-.apartment-details::after {
+.apartment-metrics::before,
+.apartment-metrics::after {
 	position: absolute;
 	content: '';
 	pointer-events: none;
@@ -495,14 +498,14 @@ header h2.tzine a{
 	left: -25%;
 	z-index: -1;
 	width: 150%;
-	height: 75%;
+	height: 55%;
 	background: inherit;
 	transform: rotate(-2deg);
 	transform-origin: 0 0;
 }
 
 .ss-style-doublediagonal::before {
-	height: 50%;
+	height: 25%;
 	background: #116094;
 	transform: rotate(-3deg);
 	transform-origin: 3% 0;
