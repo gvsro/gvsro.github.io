@@ -253,7 +253,7 @@ $(function () {
 					container.find('.apartment-info').append('<span>Pret<p>'+item.pret+'RON</p></span>');
 					container.find('.apartment-info').append('<span>Detalii<p>'+item.despre+'</p></span>');
 					$.each( item.dotari, function( key, value ) {
-						container.find('.apartment-info').append('<div class="iconWrapper"><span class="'+key+' icon">'+key+'<p>'+value+'</p></span></div>');
+						container.find('.apartment-info').append('<div class="iconWrapper"><span class="icon '+key+'">'+key+'<p>'+value+'</p></span></div>');
 					});
 
 				}
