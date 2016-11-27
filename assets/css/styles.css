@@ -365,7 +365,7 @@ header h2.tzine a{
 	display: flex;
 	flex-direction: column;
 }
-.apartment-info img{
+.apartment-details img{
 	flex: 0;
 }
 .apartment-info span{
