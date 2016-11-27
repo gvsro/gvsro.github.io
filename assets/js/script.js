@@ -436,7 +436,6 @@ $(document).ready(function() {
 			loopHorizontal: false,
 			continuousHorizontal: false,
 			controlArrows: false,
-			verticalCentered: false,
-			fixedElements: '.apartment-metrics'
+			verticalCentered: false
 		});
 });
