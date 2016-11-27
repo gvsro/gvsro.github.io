@@ -358,10 +358,10 @@ header h2.tzine a{
 .apartment-details{
 	text-align: left;
 	display: inline-flex;
-}
-.apartment-info{
 	float: left;
 	margin-left: 1%;
+}
+.apartment-info{
 	display: flex;
 	flex-direction: column;
 }
