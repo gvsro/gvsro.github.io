@@ -367,8 +367,11 @@ $(function () {
 				maintainAspectRatio: false,
 	        scales: {
 	            yAxes: [{
-	                ticks: {
-	                    beginAtZero:true
+	                display:false
+	                }
+	            }],
+							xAxes: [{
+	                display:false
 	                }
 	            }]
 	        }
