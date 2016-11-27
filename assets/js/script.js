@@ -435,7 +435,5 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
 			loopHorizontal: false,
 			continuousHorizontal: false,
-			controlArrows: false,
-			verticalCentered: false
-		});
+			controlArrows: false		});
 });
