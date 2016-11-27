@@ -470,12 +470,8 @@ header h2.tzine a{
 .botfix{
 	position: fixed;
 	bottom: 0;
-	margin-bottom: 20px;
-}
-.botfix::after{
-	position: fixed;
-	bottom: 0;
 	border-bottom: 20px #212121 solid;
+	border-top: 20px #212121 solid;
 }
 .overflow{
 	overflow: hidden;
@@ -503,11 +499,6 @@ header h2.tzine a{
 }
 
 .ss-style-triangles::before {
-	top: -50px;
+	top: -70px;
 	background: #212121;
-}
-.sub-img{
-	max-width: 50px;
-    max-height: 50px;
-    display: inline-block
 }
