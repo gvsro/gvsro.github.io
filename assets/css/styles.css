@@ -507,3 +507,8 @@ header h2.tzine a{
 	top: -50px;
 	background: #212121;
 }
+.sub-img{
+	max-width: 50px;
+    max-height: 50px;
+    display: inline-block
+}
